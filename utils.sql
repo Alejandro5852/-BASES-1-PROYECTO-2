@@ -1,0 +1,13 @@
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE TABLE carreras;
+TRUNCATE TABLE estudiantes;
+TRUNCATE TABLE cursos;
+TRUNCATE TABLE docentes;
+TRUNCATE TABLE cursos_habilitados;
+TRUNCATE TABLE cursos_habilitados_horarios;
+TRUNCATE TABLE asignaciones;
+TRUNCATE TABLE desasignaciones;
+TRUNCATE TABLE notas;
+TRUNCATE TABLE actas;
+TRUNCATE TABLE historial;
+SET FOREIGN_KEY_CHECKS = 1;
